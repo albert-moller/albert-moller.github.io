@@ -6,6 +6,10 @@ The dataset selected for this project contains all the tweets made by US Senator
 
 ## US Senate on twitter network
 
+![Figure 1](figures/network_vs_random_network.png)
+
+*Figure 1: A visualization of the US Senate on Twitter network compared to a random network with the same number of nodes and probability of forming an edge*
+
 ## Assortativity analysis
 
 ## Centrality analysis 
