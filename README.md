@@ -40,6 +40,8 @@ To gain deeper insight, Figure 3. visualizes the relationship between closeness 
 
 ## Wordclouds For Communities in US Senate on Twitter Network
 
+Having explored the network deeply, we now find communities within it using the Louvain communities function.
+
 ## Evolution of US Senate twitter network over time
 
 ![Figure 5](figures/network_evolution.png)
