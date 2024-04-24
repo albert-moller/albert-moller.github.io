@@ -46,6 +46,12 @@ Having explored the network deeply, we now find communities within it using the 
 
 *Figure 4: A visualization of the wordclouds with the top TF-IDF terms in the tweets within each community. Note that some of these terms give insight into the topics that were discussed within the communities.*
 
+By viewing the wordcloud for Community 0, it becomes evident that one of the main topics discussed within this community was the cancellation of student debt, which was a critical topic being discussed in the US senate during the first year of the Biden administration. Moreover, we see terms like "climate_chaos", "climatecrisis", "actionclimate" and "fossil_fuel", which all suggest that issues regarding the climate and greenhouse gases were discussed extensively within this community. The top senators within this community were SenSchumer, SenatorBennet, and SenWhitehouse. By researching these senators, it was found that both SenSchumer and SenWhitehouse both focus significantly on climate change, and SenatorBennet has a large focus on education - this aligns well with the terms that were found in the wordcloud. 
+
+The wordcloud for Community 1 is not quite as informative as that of Community 0, as most of the terms are references to a group of people, like "hoosiers" (referring to people from the state of Indiana) and "tennesseans". Despite this, the term "endlessfrontieract" refers to the legislative effort of investing in research, development, and technology within the US - this suggests that this community discussed this act. 
+
+For Community 2, the wordcloud contains the term "fentanyl" suggesting that the topic of opioids was discussed. Additionally, terms like "autoworkers" and "jobsact" indicate that the topics of employement and infrastructure were discussed by the senators within this community. SenatorDurbin and Senduckworth are both among the top senators in the community, and were both significantly involved with the Jobs Act. Moreover, senrobportman, who is also among the top senators, focused on fighting the opioid epidemic. Hence, the wordcloud aligns nicely with the results of the research conducted on the top senators. 
+
 ## Evolution of US Senate twitter network over time
 
 ![Figure 5](figures/network_evolution.png)
