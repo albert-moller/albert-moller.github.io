@@ -28,6 +28,12 @@ By observing the plot on the right side, it is clear to see that the degree asso
 
 ## Centrality Analysis 
 
+When exploring the properties of a social network, it can be insightful to investigate the nodes that have the most influence. In the context of the *US Senators on Twitter network*, we can compute the closeness centrality to find the most central senators, where closeness centrality measures how close a given node is to all other nodes in the network. By calculating this metric for all nodes in the network, it was found that the five most central senators are *SenKevinCramer, SenatorShaheen, SenRonJohnson, SenatorDurbin,* and *SenSchumer*. It is therefore likely that these senators play a critical role in the political discussions taking place on twitter. Additionally, these senators likely connect with many others on twitter and tend to collaborate with others often. This indicates that they are influential and widely recognized on the social media platform.  
+
+The eigenvector centrality also measures a node's closeness to other nodes in the network to quantify the importance of the node, and it reflects the idea that a node's importance is enhanced if it is linked to other nodes that are important themselves. By computing this metric for all nodes in the network, it was found that the same five senators that have the highest closeness centrality (as aforementioned) also have the highest eigenvector centrality in the network. This emphasizes how influential each of these senators are to the overall network and the discussions that took place.  
+
+To gain deeper insight, Figure 3. visualizes the relationship between closeness centrality of nodes and their degrees, as well as the relationship between eigenvector centrality of nodes and their degrees for the network. By observing both plots, it is evident that both relationships are strongly linear, indicating that a node with a higher degree almost always has a high closeness centrality and eigenvector centrality. By interpreting this result, it can be concluded that the more senators a senator interacts with in the Twitter network, the more influential the senator is to the overall network. 
+
 ![Figure 3](figures/centrality_analysis.png)
 
 *Figure 3: A visualization of the closeness centrality and eigenvector centrality both as a function of node degree for the US senate twitter network. Note that both plots show very strong positive correlations*
