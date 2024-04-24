@@ -42,7 +42,7 @@ To gain deeper insight, Figure 3. visualizes the relationship between closeness 
 
 Having explored the network deeply, we now find communities within it using the Louvain algorithm. By using this algorithm, a total of five communities were found in the network, where some communities are rather large (with more than 25 members) and others are smaller (with fewer than 10 members). To investigate what these communities are discussing in their tweets, a wordcloud was built using the top TF-IDF terms that were used in their tweets. These wordclouds are displayed in Figure 4, along with the top three senators within each community according to their degree.
 
-![Figure 4](figures/wordcloudspng)
+![Figure 4](figures/wordclouds.png)
 
 *Figure 4: A visualization of the wordclouds with the top TF-IDF terms in the tweets within each community. Note that some of these terms give insight into the topics that were discussed within the communities.*
 
