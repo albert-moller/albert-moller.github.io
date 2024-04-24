@@ -40,7 +40,7 @@ To gain deeper insight, Figure 3. visualizes the relationship between closeness 
 
 ## Wordclouds For Communities in US Senate on Twitter Network
 
-Having explored the network deeply, we now find communities within it using the Louvain communities function.
+Having explored the network deeply, we now find communities within it using the Louvain algorithm. By using this algorithm, a total of five communities were found in the network, where some communities are rather large (with more than 25 members) and others are smaller (with fewer than 10 members). To investigate what these communities are discussing in their tweets, a wordcloud was built using the top TF-IDF terms that were used in their tweets. These wordclouds are displayed in Figure 4, along with the top three senators within each community according to their degree.
 
 ## Evolution of US Senate twitter network over time
 
