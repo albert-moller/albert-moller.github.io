@@ -10,7 +10,7 @@ To view the code and details of the exploration, click here to be redirected to 
 
 ## US Senate on Twitter Network
 
-To better understand the complex system of the social interactions between US Senators on Twitter during the first year of the Biden administration, a network must be created. As there are 99 US Senators involved in the dataset, the network will contain 99 nodes each representing a US senator. In the dataset, there are 1608 unique tweets made by US senators solely addressing other US senators - hence, the network will contain 1608 edges, where each edge represents an interaction between senators. To examine whether the *US Senate on Twitter network* is a random network, a configuration model will be used to create a random network with the same number of nodes as the real network and with the same probability of there existing an edge between nodes. Given below in Figure 1. is a visualization of the real network compared to the random network. 
+To better understand the complex system of the social interactions between US Senators on Twitter during the first year of the Biden administration, a network must be created. As there are 99 US Senators involved in the dataset, the network will contain 99 nodes each representing a US senator. In the dataset, there are 1608 unique tweets made by US senators solely addressing other US senators - hence, the network will contain 1608 edges, where each edge represents a social media interaction between senators. To examine whether the *US Senate on Twitter network* is a random network, a configuration model will be used to create a random network with the same number of nodes as the real network and with the same probability of there existing an edge between nodes. Given below in Figure 1. is a visualization of the real network compared to the random network. 
 
 ![Figure 1](figures/network_vs_random_network.png)
 
@@ -20,7 +20,7 @@ Evidently in Figure 1. both networks have full connectedness, meaning that the l
 
 ## Assortativity Analysis
 
-Assortativity is a powerful network metric that can be used to evaluate the social interactions between senators on Twitter. A network is said to be assortative in the context of this project if there is a clear tendency that senators who are Democrats mention other senators who are also Democrats, and likewise for Republicans. This is analogous to the social trend of popular people being friends with other popular people, and less popular people being friends with other less popular people. Given below in Figure 2. is a depiction of assortativity distributions by political party for 100 random networks compared to the real networks assortativity. 
+Assortativity is a powerful network metric that can be used to evaluate the social interactions between senators on Twitter. A network is said to be assortative in the context of this project if there is a clear tendency for senators who are Democrats to mention other senators who are also Democrats, and likewise for Republicans. This is analogous to the social trend of popular people being friends with other popular people, and less popular people being friends with other less popular people. Given below in Figure 2. is a depiction of assortativity distributions by political party for 100 random networks compared to the real networks assortativity. 
 
 ![Figure 2](figures/assortativity_analysis.png)
 
@@ -42,7 +42,7 @@ To gain deeper insight, Figure 3. visualizes the relationship between the closen
 
 *Figure 3: A visualization of the closeness centrality and eigenvector centrality both as a function of node degree for the US Senate Twitter network. Note that both plots show very strong positive correlations*
 
-## Wordclouds For Communities in US Senate on Twitter Network
+## Word clouds For Communities in US Senate on Twitter Network
 
 Having explored the network deeply, we now find communities within it using the Louvain algorithm. By using this algorithm, a total of five communities were found in the network, where some communities are rather large (with more than 25 members) and others are smaller (with fewer than 10 members). To investigate what these communities are discussing in their tweets, a word cloud was built using the top TF-IDF terms that were used in their tweets. These word clouds are displayed in Figure 4, along with the top three senators within each community according to their degree.
 
@@ -73,4 +73,4 @@ By viewing Figure 5, it is evident that the network quickly evolves in the first
 
 ## Conclusion
 
-All in all, this exploration successfully determined some of the main topics that were discussed on Twitter by US Senators during the first year of the Biden administration. The network was explored in depth, and it was concluded that the US Senators on Twitter network was significantly different from a random network. Additionally, the assortativity by political party was explored, and it was determined that connections within the same party are significantly higher than chance. A centrality analysis was conducted to find the most important and influential senators in the network according to the closeness and eigenvector centralities. Having built wordclouds for the communities that existed in the network, the main topics of discussion derived from the terms in the wordclouds were climate change, student debt, technology, opioids, employement, and military affairs. 
+All in all, this exploration successfully determined some of the main topics that were discussed on Twitter by US Senators during the first year of the Biden administration. The network was explored in depth, and it was concluded that the US Senators on Twitter network was significantly different from a random network. Additionally, the assortativity by political party was explored, and it was determined that connections within the same party are significantly higher than chance. A centrality analysis was conducted to find the most important and influential senators in the network according to the closeness and eigenvector centralities. Having built word clouds for the communities that existed in the network, the main topics of discussion derived from the terms in the word clouds were climate change, student debt, technology, opioids, employment, and military affairs. 
