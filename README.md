@@ -56,7 +56,7 @@ For Community 2, the wordcloud contains the term "fentanyl" suggesting that the 
 
 Similarly to Community 1, the wordcloud for Community 3 contains many terms that refer to groups of people, like "illinoisans". However, we can still gain insight to the topics that were dicussed from terms like "eielsonairforce" (which refers to an air base in Alaska) and "aknationalguard" (referring to the national guard in Alaska). These terms indicate that one of the main topics of discussion within Community 3 was national security and military. SenDurbin and SenCortezMasto are among the top senators in the community, and they both worked extensively on issues within national terrorism and public safety - this aligns well with the results of the wordcloud.
 
-
+Finally, we inspect the wordcloud for Community 4. Once again, we see terms like "nhnationalguard" (referring to the New Hampshire national guard), "border_crisis", and "iowanatguard" (referring to the Iowa national guard) - these terms suggests that there was discussion of military and public safety within this community during 2021. Research shows that SenJoniErnst worked heavily with military affairs during this time periods, and is one of the top senators by degree within this community. Thus, the research conducted aligns with the terms found in the wordcloud for Community 4. 
 
 ## Evolution of US Senate twitter network over time
 
