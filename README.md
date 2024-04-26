@@ -4,8 +4,7 @@
 
 The dataset selected for this project contains all the tweets made by US Senators during the first year of the Biden administration (2021) using their official twitter accounts. It is a ready-made dataset from Hugging Face which was created using the Twitter API in 2021. The dataset contains 5 variables namely the date the tweet was posted, a unique tweet id, the username of the senator that posted the tweet, the tweet text and the party (Democrat or Republican) that the senator is a part of. Furthermore, the dataset is 233 MB and contains 99,693 rows of data entries, where each row represents a tweet. This dataset was chosen as it allows for an exploration of the communities present within the US Senate, as well as all the topics and values discussed. The structure and nature of the dataset allows for the aforementioned exploration, as it provides a way to understand the social relationships between the US Senators through their social media interactions. The goal of this project is to answer the research question: **What topics did the members of the US Senate discuss on Twitter during the first year of the Biden administration, and what communities exist within the US senate based on Twitter data?**
 
-The link to the dataset is shown below, where a sample of the dataset can be directly viewed of the full dataset can be downloaded:
-[Link Text]([URL](https://huggingface.co/datasets/m-newhauser/senator-tweets))
+To view a sample of the dataset or download it for experimentation, click here: [Hugging Face Senate Tweets Dataset](https://huggingface.co/datasets/m-newhauser/senator-tweets)
 
 ## US Senate on Twitter Network
 
