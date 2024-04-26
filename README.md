@@ -60,10 +60,13 @@ Finally, we inspect the wordcloud for Community 4. Once again, we see terms like
 
 ## Evolution of US Senate twitter network over time
 Having explored the textual aspects of the network, we now investigate how the network evolved through the year 2021. We do this by using the "date" feature of the dataset, and building cumultative monthly networks - where the network for January will contain all tweets posted in January, the network for February will contain and tweets posted in January and February, and so on. These networks are displayed in Figure 5. 
+
 ![Figure 5](figures/network_evolution.png)
 
 *Figure 5: A visualization of the evolution of the US Senate Twitter network over time. Note that the network quickly converges to a fully-connected network.*
 
+
+By viewing Figure 5, it is evident that the network quickly evolves in the first few months, and eventually converges into a fully connected network. By considering the number of edges in each network in the grid, we can determine which months experienced high activity and discussion between senators on Twitter, and which months experiences less activity. Early on in the year, namely in February and March, around 300 new edges were created each month. On the other hand, less than 100 new edges were created per month in final quarter of the year. This suggests that there was a greater need to discuss topics on Twitter during the early months of the Biden administration compared the last few months of the first year. 
 
 
 
