@@ -59,7 +59,7 @@ Similarly to Community 1, the wordcloud for Community 3 contains many terms that
 Finally, we inspect the wordcloud for Community 4. Once again, we see terms like "nhnationalguard" (referring to the New Hampshire national guard), "border_crisis", and "iowanatguard" (referring to the Iowa national guard) - these terms suggests that there was discussion of military and public safety within this community during 2021. Research shows that SenJoniErnst worked heavily with military affairs during this time periods, and is one of the top senators by degree within this community. Thus, the research conducted aligns with the terms found in the wordcloud for Community 4. 
 
 ## Evolution of US Senate twitter network over time
-
+Having explored the textual aspects of the network, we now investigate how the network evolved through the year 2021. We do this by using the "date" feature of the dataset, and building cumultative monthly networks - where the network for January will contain all tweets posted in January, the network for February will contain and tweets posted in January and February, and so on. These networks are displayed in Figure 5. 
 ![Figure 5](figures/network_evolution.png)
 
 *Figure 5: A visualization of the evolution of the US Senate Twitter network over time. Note that the network quickly converges to a fully-connected network.*
